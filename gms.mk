@@ -2,9 +2,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/gms/common
 
 PRODUCT_COPY_FILES += \
-    vendor/gms/product/app/Chrome/Chrome.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/Chrome/Chrome.apk.gz \
-	vendor/gms/product/app/TrichromeLibrary/TrichromeLibrary.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/TrichromeLibrary/TrichromeLibrary.apk.gz \
-	vendor/gms/product/app/WebViewGoogle/WebViewGoogle.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/WebViewGoogle/WebViewGoogle.apk.gz \
 	vendor/gms/product/etc/permissions/com.android.vending.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.vending.xml \
 	vendor/gms/product/etc/permissions/com.google.android.apps.messaging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.messaging.xml \
 	vendor/gms/product/etc/permissions/com.google.android.dialer.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.xml \
@@ -59,9 +56,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	AndroidDevicePolicy \
 	Chrome-Stub \
+	Chrome \
 	LatinIMEGooglePrebuilt \
 	TrichromeLibrary-Stub \
-	WebViewGoogle-Stub \
+	TrichromeLibrary \
+	webview \
 	com.google.android.dialer.support \
 	AndroidAutoStubPrebuilt \
 	GoogleDialer \
