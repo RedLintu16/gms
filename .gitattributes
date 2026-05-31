@@ -1,0 +1,6 @@
+*.git/objects/5f/9c4488ce8c38d127d4e8913328023025291829 filter=lfs diff=lfs merge=lfs -text
+*.git/objects/cf/3ccca360cddb123ba4d3e5a63cb7bba4cc872a filter=lfs diff=lfs merge=lfs -text
+*.git/objects/ef/a9230bc1f977afb0963da1c8aa12f2098a3016 filter=lfs diff=lfs merge=lfs -text
+*.git/objects/f4/a34f8512661945540313d2143538fa259a1134 filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
