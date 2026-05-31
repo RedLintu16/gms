@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="array" name="config_globallyDisabledComponents" id="0x7f010000" />
+    <public type="bool" name="call_recording_enabled" id="0x7f020000" />
+    <public type="bool" name="grant_location_permission_enabled" id="0x7f020001" />
+    <public type="string" name="config_defaultCallRedirection" id="0x7f030000" />
+    <public type="string" name="config_defaultCallScreening" id="0x7f030001" />
+    <public type="string" name="config_defaultDialer" id="0x7f030002" />
+    <public type="string" name="dialer_default_class" id="0x7f030003" />
+    <public type="string" name="incall_default_class" id="0x7f030004" />
+</resources>

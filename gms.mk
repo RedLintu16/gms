@@ -71,3 +71,13 @@ PRODUCT_PACKAGES += \
 	SetupWizardPrebuilt \
 	Velvet \
 	GoogleServicesFramework
+
+# Overlays
+
+PRODUCT_PACKAGES += \
+	AndroidAutoOverlay \
+	AndroidDevicePolicyOverlay \
+	GmsCoreOverlay \
+	GoogleDialerOverlay \
+	GoogleMessagesOverlay \
+	VelvetOverlay \

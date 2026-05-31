@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_defaultCallRedirection">com.google.android.dialer</string>
+    <string name="config_defaultCallScreening">com.google.android.dialer</string>
+    <string name="config_defaultDialer">com.google.android.dialer</string>
+    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <string name="incall_default_class">com.android.incallui.InCallServiceImpl</string>
+</resources>
