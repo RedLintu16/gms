@@ -29,6 +29,19 @@ android_app_import {
 }
 
 android_app_import {
+	name: "Chrome",
+	owner: "gms",
+	apk: "product/app/Chrome/Chrome.apk",
+	overrides: ["webview", "Browser2", "Jelly"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "LatinIMEGooglePrebuilt",
 	owner: "gms",
 	apk: "product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk",
@@ -54,10 +67,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WebViewGoogle-Stub",
+	name: "TrichromeLibrary",
 	owner: "gms",
-	apk: "product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk",
-	overrides: ["webview"],
+	apk: "proprietary/product/app/TrichromeLibrary/TrichromeLibrary.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
