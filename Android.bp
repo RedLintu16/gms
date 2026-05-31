@@ -1,0 +1,185 @@
+soong_namespace {
+	imports: [
+	],
+}
+
+android_app_import {
+	name: "AndroidDevicePolicy",
+	owner: "gms",
+	apk: "product/app/AndroidDevicePolicy/DevicePolicyPrebuilt-v10334460.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: false,
+}
+
+android_app_import {
+	name: "Chrome-Stub",
+	owner: "gms",
+	apk: "product/app/Chrome-Stub/Chrome-Stub.apk",
+	overrides: ["webview", "Browser2", "Jelly"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "LatinIMEGooglePrebuilt",
+	owner: "gms",
+	apk: "product/app/LatinIMEGooglePrebuilt/LatinIMEGooglePrebuilt.apk",
+	overrides: ["LatinIME"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "TrichromeLibrary-Stub",
+	owner: "gms",
+	apk: "proprietary/product/app/TrichromeLibrary-Stub/TrichromeLibrary-Stub.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "WebViewGoogle-Stub",
+	owner: "gms",
+	apk: "product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk",
+	overrides: ["webview"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+dex_import {
+	name: "com.google.android.dialer.support",
+	owner: "gms",
+	jars: ["product/framework/com.google.android.dialer.support.jar"],
+	product_specific: true,
+}
+
+
+android_app_import {
+	name: "AndroidAutoStubPrebuilt",
+	owner: "gms",
+	apk: "product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "GoogleDialer",
+	owner: "gms",
+	apk: "product/priv-app/GoogleDialer/GoogleDialer.apk",
+	overrides: ["Dialer"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PrebuiltBugle",
+	owner: "gms",
+	apk: "product/priv-app/PrebuiltBugle/PrebuiltBugle.apk",
+	overrides: ["messaging"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "Phonesky",
+	owner: "gms",
+	apk: "product/priv-app/Phonesky/Phonesky.apk",
+	overrides: ["messaging"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "PrebuiltGmsCoreVic",
+	owner: "gms",
+	apk: "product/priv-app/PrebuiltGmsCoreVic/PrebuiltGmsCoreVic.apk",
+	overrides: ["StatementService"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "SetupWizardPrebuilt",
+	owner: "gms",
+	apk: "product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt_v811313066.apk",
+	overrides: ["Provision"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "Velvet",
+	owner: "gms",
+	apk: "product/priv-app/Velvet/Velvet.apk",
+	overrides: ["QuickSearchBox"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "GoogleServicesFramework",
+	owner: "gms",
+	apk: "system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
