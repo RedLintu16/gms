@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
 	vendor/gms/product/usr/srec/en-US/voice_match/MARBLE_speakerid.tflite:$(TARGET_COPY_OUT_PRODUCT)/usr/srec/en-US/voice_match/MARBLE_speakerid.tflite
 
 PRODUCT_PACKAGES += \
+	RemovePackages \
 	AndroidDevicePolicy \
 	Chrome-Stub \
 	Chrome \
