@@ -19,7 +19,7 @@ android_app_import {
 	name: "Chrome-Stub",
 	owner: "gms",
 	apk: "product/app/Chrome-Stub/Chrome-Stub.apk",
-	overrides: ["webview", "Browser2", "Jelly"],
+	overrides: ["Browser2", "Jelly"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -32,7 +32,7 @@ android_app_import {
 	name: "Chrome",
 	owner: "gms",
 	apk: "product/app/Chrome/Chrome.apk",
-	overrides: ["webview", "Browser2", "Jelly"],
+	overrides: ["Browser2", "Jelly"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
